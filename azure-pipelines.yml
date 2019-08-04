@@ -13,7 +13,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- script: dotnet build azurepipelinesdemo2\azurepipelinesdemo2.sln --configuration $(buildConfiguration)
   displayName: 'Build Solution'
-- script: dotnet test --configuration $(buildConfiguration)
+- script: dotnet test azurepipelinesdemo2\azurepipelinesdemo2.sln --configuration $(buildConfiguration)
   displayName: 'Test Solution'
