@@ -1,12 +1,11 @@
-using System;
 using Xunit;
 
 namespace AzurePipelinesDemo.Tests
 {
-	public class UnitTest1
+	public class SampleTests
 	{
 		[Fact]
-		public void Test1()
+		public void SampleTest1()
 		{
 			Assert.True(true);
 			Assert.True(true);
